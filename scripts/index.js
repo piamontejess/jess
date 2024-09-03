@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  birthdate: 'September 4, 2024',
+  name: 'ATE KHATE! <3'
 };
 
 function hideEverything() {
@@ -477,6 +477,7 @@ x = setInterval(function() {
       }
       stepClass(step);
       if (step === 3) {
+        
       }
       if (step === 4) {
         return;
@@ -487,6 +488,7 @@ x = setInterval(function() {
     }
 
     function showfireworks() {
+      document.body.style.backgroundColor = 'black';
       canvasC.style.display = 'initial';
       setTimeout(anim, 1500);
     }
